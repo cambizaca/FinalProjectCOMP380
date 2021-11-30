@@ -422,9 +422,20 @@ html {
     z-index: 999;
     background-color: #eee;
     opacity: 0.9;
+    top: 10;
+    left: 0;
+    width: 100%;
+}
+
+.project-content-2 {
+    /* position: absolute; */
+    z-index: 999;
+    background-color: #eee;
+    opacity: 0.9;
     top: 0;
     left: 0;
     width: 100%;
+    padding: 10px;
 }
 
 .project-content h2 {
