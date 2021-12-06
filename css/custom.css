@@ -19,12 +19,6 @@
     margin-top: 10vh !important;
 }
 
-#data-breaches-picture{
-    background-image: url(https://images.idgesg.net/images/article/2017/08/lock_circuit_board_bullet_hole_computer_security_breach_thinkstock_473158924_3x2-100732430-large.jpg?auto=webp&quality=85,70);
-    width: 100%;
-    height: 90vh !important;
-}
-
 #third-section{
     padding: 2vw;
 }
@@ -39,6 +33,12 @@
 }
 
 .quotes-list{
+    padding: 3vw;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+}
+
+.bg-light{
     padding: 3vw;
     background-color: rgb(243, 243, 243);
     border-radius: 10px;
@@ -81,4 +81,38 @@
 
 #facebook-paragraph{
     margin: 1vw;
+}
+
+.list-item{
+    margin: 1vw;
+}
+
+iframe{
+    width:100%;
+    height:600px !important;
+}
+
+#data-breaches-picture{
+    background-image: url(https://images.idgesg.net/images/article/2017/08/lock_circuit_board_bullet_hole_computer_security_breach_thinkstock_473158924_3x2-100732430-large.jpg?auto=webp&quality=85,70);
+    width: 100%;
+    height: 90vh !important;
+}
+
+#digital-footprint-picture{
+    background-image: url(https://www.prnewsonline.com/wp-content/uploads/2015/03/slider_image.jpg);
+    height: 90vh !important;
+    width: 100vw !important;
+}
+
+#legislation-picture{
+    background-image: url(https://www.agingresearch.org/app/uploads/2013/07/papers-flying-graphic.jpg);
+    height: 90vh !important;
+    width: 100vw !important;
+}
+
+#legislation-map-picture{
+    width: 90% !important;
+    margin: 1vw;
+    margin-top: 5vh;
+    border-radius: 10px;
 }
