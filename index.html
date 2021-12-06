@@ -16,6 +16,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
 
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
@@ -26,6 +27,16 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM">
         </script>
 
+        <!-- NAVBAR STYLING FROM: https://bootstrap-menu.com/detail-basic-hover.html -->
+        <style>
+        @media all{
+	        .navbar .nav-item .dropdown-menu{ display: none; }
+	        .navbar .nav-item:hover .nav-link{   }
+	        .navbar .nav-item:hover .dropdown-menu{ display: block; }
+	        .navbar .nav-item .dropdown-menu{ margin-top:0; }
+        }
+        </style>
+
 	</head>
 	<body>
     
@@ -33,24 +44,36 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="row">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                          <i class="fa fa-bars"></i>
-                        </button>
-                        <div class="logo-wrapper">
-                            <a class="navbar-brand" href="#templatemo">
-                                <p> <em></em>  </p>
-                            </a>
-                        </div>  
-                    </div>
                     <div class="collapse navbar-collapse" id="main-menu">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><span></span><a href="#top" class="home">TIMELINE</a></li>
-                            <li><span></span><a href="#first-section" class="about">SOCIAL MEDIA + DATA</a></li>
-                            <li><span></span><a href="#second-section" class="portfolio">INTERACTING WITH SOCIAL MEDIA</a></li>
-                            <li><span></span><a href="#map" class="map">LEGAL ISSUES</a></li>
-                            <li><span></span><a href="#third-section" class="contact">QUIZ YOURSELF</a></li>
-                            <li><span></span><a href="#third-section" class="contact">CITATIONS</a></li>
+                            <!-- NAVBAR FROM: https://bootstrap-menu.com/detail-basic-hover.html -->
+                            <li class="nav-item"> <a class="nav-link" href="index.html">HOME</a> </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">SOCIAL MEDIA AND DATA</a>
+                                 <ul class="dropdown-menu">
+                                   <li><a class="dropdown-item" href="pages/data_collection.html">DATA COLLECTION</a></li>
+                                   <li><a class="dropdown-item" href="pages/data_breaches.html">DATA BREACHES</a></li>
+                                   <li><a class="dropdown-item" href="pages/future_of_data.html">THE FUTURE</a></li>
+                                 </ul>
+                             </li>
+                            <li class="nav-item dropdown">
+                               <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">INTERACTING WITH SOCIAL MEDIA</a>
+                                <ul class="dropdown-menu">
+                                  <li class="hover-dropdown"><a class="dropdown-item" href="pages/digital_footprints.html">DIGITAL FOOTPRINTS</a></li>
+                                  <li class="hover-dropdown"><a class="dropdown-item" href="pages/biometrics.html">BIOMETRICS</a></li>
+                                  <li class="hover-dropdown"><a class="dropdown-item" href="pages/privacy_and_scams.html">PRIVACY AND SCAMS</a></li>
+                                  <li class="hover-dropdown"><a class="dropdown-item" href="pages/tips.html">TIPS FOR INTERNET SAFETY</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">LEGAL ISSUES</a>
+                                 <ul class="dropdown-menu">
+                                   <li><a class="dropdown-item" href="pages/legislation.html">IMPORTANT LEGISLATION</a></li>
+                                   <li><a class="dropdown-item" href="pages/court_cases.html">LANDMARK COURT CASES</a></li>
+                                 </ul>
+                             </li>
+                             <li class="nav-item"> <a class="nav-link" href="pages/quiz.html">QUIZ YOURSELF</a> </li>
+                             <li class="nav-item"> <a class="nav-link" href="pages/references.html">REFERENCES</a> </li>
 
                         </ul>
                     </div>
@@ -449,7 +472,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
     </div> -->
 
     
-    <footer>
+    <footer class ="fixed-bottom">
         <div class="container">
             <div class="footer-content">
                 <div class="row">

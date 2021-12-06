@@ -1,0 +1,118 @@
+.dropdown-menu{
+    padding-top: 3.5vh !important;
+}
+
+#main-menu{
+    position: absolute !important;
+    right: 2vw !important;
+}
+
+.nav-link{
+    font-size: 1.10vw !important;
+}
+
+.dropdown-item{
+    font-size: 1vw !important;
+}
+
+#intro-p{
+    margin-top: 10vh !important;
+}
+
+#third-section{
+    padding: 2vw;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.paragraph{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.quotes-list{
+    padding: 3vw;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+}
+
+.bg-light{
+    padding: 3vw;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+}
+
+.quote-item{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+
+.form-options{
+    margin-top:3vh;
+    padding: 2vw;
+    font-weight: lighter !important;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+}
+
+.form-check{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+#submit-button{
+    margin-left: 1.5vw;
+    font-size: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 1vh;
+}
+
+#facebook-photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 1vw;
+    margin-right: 2vw;
+}
+
+#facebook-paragraph{
+    margin: 1vw;
+}
+
+.list-item{
+    margin: 1vw;
+}
+
+iframe{
+    width:100%;
+    height:600px !important;
+}
+
+#data-breaches-picture{
+    background-image: url(https://images.idgesg.net/images/article/2017/08/lock_circuit_board_bullet_hole_computer_security_breach_thinkstock_473158924_3x2-100732430-large.jpg?auto=webp&quality=85,70);
+    width: 100%;
+    height: 90vh !important;
+}
+
+#digital-footprint-picture{
+    background-image: url(https://www.prnewsonline.com/wp-content/uploads/2015/03/slider_image.jpg);
+    height: 90vh !important;
+    width: 100vw !important;
+}
+
+#legislation-picture{
+    background-image: url(https://www.agingresearch.org/app/uploads/2013/07/papers-flying-graphic.jpg);
+    height: 90vh !important;
+    width: 100vw !important;
+}
+
+#legislation-map-picture{
+    width: 90% !important;
+    margin: 1vw;
+    margin-top: 5vh;
+    border-radius: 10px;
+}
