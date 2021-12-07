@@ -22,6 +22,8 @@
         <script src="../js/vendor/modernizr.min.js"></script>
         <script src="../http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM">
         </script>
+        <script src="../js/poll.js"></script>
+
 
         <!-- NAVBAR STYLING FROM: https://bootstrap-menu.com/detail-basic-hover.html -->
         <style>
@@ -139,40 +141,42 @@
                                         </div>
                                     </div>
                                 </div>
-                                <form>
-                                    <h3 class="display-4">What company makes you feel the best about the security of your data?</h3>
-                                    <div class="form-options lead">
-                                        <div class="row form-check form-check-inline">
-                                            <div class = "col-md-1">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <div id ='poll-parent'>
+                                    <form id ='poll-form'>
+                                        <h3 class="display-4">What company makes you feel the best about the security of your data?</h3>
+                                        <div class="form-options lead">
+                                            <div class="row form-check form-check-inline">
+                                                <div class = "col-md-1">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                </div>
+                                                <div class = "col-md-11">
+                                                    <label class="form-check-label" for="inlineRadio1">Twitter</label>
+                                                </div>
                                             </div>
-                                            <div class = "col-md-11">
-                                                <label class="form-check-label" for="inlineRadio1">Twitter</label>
+                                            <div class="row form-check form-check-inline">
+                                                <div class = "col-md-1">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1">
+                                                </div>
+                                                <div class = "col-md-11">
+                                                    <label class="form-check-label" for="inlineRadio1">Facebook</label>
+                                                </div>
+                                            </div>
+                                            <div class="row form-check form-check-inline">
+                                                <div class = "col-md-1">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1">
+                                                </div>
+                                                <div class = "col-md-11">
+                                                    <label class="form-check-label" for="inlineRadio1">LinkedIn</label>
+                                                </div>
+                                            </div>
+                                            <div class="row form-check form-check-inline">
+                                                <div class = "col-md-1">
+                                                    <button type="button" class = "btn btn-primary" id="submit-button">Submit</button>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="row form-check form-check-inline">
-                                            <div class = "col-md-1">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1">
-                                            </div>
-                                            <div class = "col-md-11">
-                                                <label class="form-check-label" for="inlineRadio1">Facebook</label>
-                                            </div>
-                                        </div>
-                                        <div class="row form-check form-check-inline">
-                                            <div class = "col-md-1">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1">
-                                            </div>
-                                            <div class = "col-md-11">
-                                                <label class="form-check-label" for="inlineRadio1">LinkedIn</label>
-                                            </div>
-                                        </div>
-                                        <div class="row form-check form-check-inline">
-                                            <div class = "col-md-1">
-                                                <button type="button" class = "btn btn-primary" id="submit-button">Submit</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
+                                    </form>
+                                </div>
                                 <p class ="paragraph lead">Of these three social media sites, only LinkedIn specifically stated that the
                                     data collected by them was kept secure and that they consistently monitored it to keep it that way. 
                                     Facebook and Twitter, on the other hand, admit that they collect data, and they do say that they use 
