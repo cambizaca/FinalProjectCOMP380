@@ -34,3 +34,16 @@ jQuery(document).ready(function($){
 });
 
 $(".navbar-collapse").css({ maxHeight: $(window).height() - $(".navbar-header").height() + "px" });
+
+$( ".hover-div" ).mouseover(function(){
+  $(this).css("background-color", "green");
+  $("#quiz-h2").css("color", "white");
+
+});
+
+$( ".hover-div" ).mouseleave(function(){
+  $(this).css("background-color", "white");
+  $("#quiz-h2").css("color", "black");
+
+});
+
