@@ -129,3 +129,22 @@ iframe{
     margin-bottom: 2vw;
     border-radius: 10px;
 }
+
+#privacy-and-scams-picture{
+    width: 85%;
+    margin-top: 8vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-bottom: 2vw;
+    border-radius: 10px;
+}
+
+#future-of-data-picture{
+    width: 75%;
+    margin-top: 8vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 2vw;
+    border-radius: 10px;
+}
+
