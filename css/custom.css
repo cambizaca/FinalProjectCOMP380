@@ -162,4 +162,13 @@ iframe{
     border-radius: 10px;
 }
 
+#court-cases-picture{
+    width: 70%;
+    margin-top: 8vw;
+    margin-left: 11.5vw;
+    margin-right: 11.5vw;
+    margin-bottom: 2vw;
+    border-radius: 10px;
+}
+
 
