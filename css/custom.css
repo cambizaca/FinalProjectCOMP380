@@ -128,6 +128,11 @@ iframe{
     width: 100vw !important;
 }
 
+#tips-picture{
+    background-image: url(https://safeandtogetherinstitute.com/wp-content/uploads/2019/11/iStock-1060912048-e1574361712306.jpg);
+    height: 85vh !important;
+}
+
 #legislation-map-picture{
     width: 90% !important;
     margin: 1vw;
